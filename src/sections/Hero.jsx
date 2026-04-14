@@ -52,7 +52,8 @@ export default function Hero() {
           className="text-xl text-white/60 mb-12 max-w-2xl mx-auto leading-relaxed"
         >
           The first visual-logic platform designed for the AI native era. 
-          Connect nodes, train models, and deploy production-ready bots in clicks.
+          Connect nodes, train models, and deploy production-ready bots in clicks. 
+          Join 10,000+ developers building the future of automated intelligence.
         </motion.p>
 
         <motion.div
@@ -61,22 +62,22 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.6 }}
           className="flex flex-wrap items-center justify-center gap-6"
         >
-          <button className="bg-botman-glow p-[1px] rounded-full group">
-            <div className="bg-[#050505] group-hover:bg-transparent transition-colors px-10 py-4 rounded-full flex items-center gap-2 font-bold text-lg">
+          <button className="bg-botman-glow p-[1px] rounded-full group button-glow">
+            <div className="bg-[#050505] group-hover:bg-transparent transition-all px-10 py-4 rounded-full flex items-center gap-2 font-bold text-lg text-white">
               Start Building 
               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
             </div>
           </button>
           
-          <button className="px-10 py-4 rounded-full font-bold text-lg border border-white/10 hover:bg-white/5 transition-colors">
+          <button className="px-10 py-4 rounded-full font-bold text-lg border border-white/20 hover:bg-white/10 hover:border-white/40 transition-all text-white backdrop-blur-sm">
             View Demo
           </button>
         </motion.div>
       </div>
 
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce opacity-40">
-        <div className="w-6 h-10 rounded-full border-2 border-white flex justify-center p-1">
-          <div className="w-1.5 h-1.5 bg-white rounded-full" />
+      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce opacity-60">
+        <div className="w-6 h-10 rounded-full border-2 border-accent-blue/50 flex justify-center p-1">
+          <div className="w-1.5 h-1.5 bg-accent-blue rounded-full" />
         </div>
       </div>
     </section>

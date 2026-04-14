@@ -97,6 +97,34 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-text-fill-color: transparent;
 }
 
+.bg-botman-glow {
+  background: linear-gradient(135deg, #3B82F6 0%, #8B5CF6 50%, #3B82F6 100%);
+  background-size: 200% auto;
+  animation: bg-shine 3s linear infinite;
+}
+
+@keyframes bg-shine {
+  to { background-position: 200% center; }
+}
+
+.button-glow {
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
+  transition: box-shadow 0.3s ease;
+}
+
+.button-glow:hover {
+  box-shadow: 0 0 30px rgba(59, 130, 246, 0.6);
+}
+
+.bg-intro-gradient {
+  background: radial-gradient(circle at center, #111 0%, #050505 100%);
+}
+
+.phone-screen-reveal {
+  background: var(--color-background);
+  box-shadow: 0 0 100px rgba(59, 130, 246, 0.2);
+}
+
 /* Smooth Scrolling */
 html {
   scroll-behavior: smooth;

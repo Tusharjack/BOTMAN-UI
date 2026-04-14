@@ -6,30 +6,44 @@ import { motion } from 'framer-motion';
 const features = [
   {
     title: "Visual Flow Builder",
-    description: "Build complex bot logic with a drag-and-drop interface inspired by modern dev tools.",
+    description: "Build complex bot logic with a drag-and-drop interface inspired by modern dev tools. No coding required to build enterprise-grade automation.",
     icon: Layers,
     class: "col-span-12 md:col-span-8",
     color: "#3B82F6"
   },
   {
     title: "AI Native Roots",
-    description: "Deeply integrated with GPT-4, Claude & Llama models out of the box.",
+    description: "Deeply integrated with GPT-4, Claude & Llama models. Switch models mid-flow for optimal performance and cost.",
     icon: Cpu,
     class: "col-span-12 md:col-span-4",
     color: "#8B5CF6"
   },
   {
     title: "One-Click Deploy",
-    description: "Host your bots on our distributed edge network for zero latency.",
+    description: "Host your bots on our distributed edge network for zero latency. Scale from 1 to 1M users effortlessly.",
     icon: Zap,
     class: "col-span-12 md:col-span-4",
     color: "#3B82F6"
   },
   {
     title: "Omnichannel Support",
-    description: "Connect to WhatsApp, Discord, Slack or your own website in seconds.",
+    description: "Connect to WhatsApp, Discord, Slack or your own website. Sync conversations across all platforms in real-time.",
     icon: MessageSquare,
     class: "col-span-12 md:col-span-8",
+    color: "#8B5CF6"
+  },
+  {
+    title: "Enterprise Security",
+    description: "Bank-grade encryption and SOC2 compliance. Your data stays yours, always.",
+    icon: Shield,
+    class: "col-span-12 md:col-span-6",
+    color: "#3B82F6"
+  },
+  {
+    title: "Real-time Analytics",
+    description: "Monitor bot performance, user sentiment, and conversion rates with our built-in dashboard.",
+    icon: Globe,
+    class: "col-span-12 md:col-span-6",
     color: "#8B5CF6"
   }
 ];

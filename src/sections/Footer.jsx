@@ -42,13 +42,13 @@ export default function Footer() {
 
         <div className="col-span-12 sm:col-span-4 md:col-span-4 lg:col-span-4">
           <h4 className="text-sm font-bold uppercase tracking-widest text-white/40 mb-6">Stay Updated</h4>
-          <div className="bg-white/5 border border-white/10 p-1.5 rounded-xl flex">
+          <div className="bg-white/5 border border-white/10 p-2 rounded-xl flex gap-2">
             <input 
               type="text" 
               placeholder="Your email address" 
-              className="bg-transparent border-none outline-none flex-1 px-4 text-sm"
+              className="bg-transparent border-none outline-none flex-1 px-4 text-sm text-white placeholder:text-white/20"
             />
-            <button className="bg-accent-blue px-6 py-2 rounded-lg font-bold text-sm">Join</button>
+            <button className="bg-accent-blue px-6 py-2 rounded-lg font-bold text-sm text-white hover:bg-accent-blue/80 transition-all button-glow">Join</button>
           </div>
         </div>
       </div>

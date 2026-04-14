@@ -52,9 +52,15 @@ export default function InteractiveFlow() {
           </svg>
         </div>
 
-        <Step icon={MousePointer2} title="1. Define" desc="Visual logic mapping" delay={0.2} />
-        <Step icon={Cpu} title="2. Train" desc="Contextual AI injection" delay={0.4} />
-        <Step icon={Rocket} title="3. Deploy" desc="Instant API generation" delay={0.6} />
+        <Step icon={MousePointer2} title="1. Define" desc="Map your logic visually with our drag-and-drop node builder. Define custom triggers and responses." delay={0.2} />
+        <Step icon={Cpu} title="2. Train" desc="Inject your own context. Train your bot on your docs, website, or custom knowledge base in seconds." delay={0.4} />
+        <Step icon={Rocket} title="3. Deploy" desc="Deploy with one click. Get a production-ready API or use our pre-built widgets for any platform." delay={0.6} />
+      </div>
+
+      <div className="mt-32 flex justify-center">
+        <button className="px-10 py-4 rounded-full font-bold text-lg border border-accent-blue/30 bg-accent-blue/5 hover:bg-accent-blue/10 hover:border-accent-blue/50 transition-all text-white backdrop-blur-sm button-glow">
+          Explore Advanced Workflows
+        </button>
       </div>
     </section>
   );

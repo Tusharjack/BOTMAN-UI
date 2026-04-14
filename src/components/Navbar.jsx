@@ -26,10 +26,10 @@ export default function Navbar() {
         </div>
 
         <div>
-          <button className="group relative flex items-center gap-2 bg-white text-black px-5 py-2 rounded-full font-semibold text-sm transition-all hover:pr-4">
+          <button className="group relative flex items-center gap-2 bg-white text-black px-6 py-2.5 rounded-full font-bold text-sm transition-all hover:scale-105 active:scale-95 button-glow">
             Get Started
             <ChevronRight size={16} className="group-hover:translate-x-1 transition-transform" />
-            <div className="absolute inset-0 rounded-full bg-accent-blue blur-lg opacity-0 group-hover:opacity-30 transition-opacity -z-10" />
+            <div className="absolute inset-0 rounded-full bg-accent-blue blur-xl opacity-0 group-hover:opacity-40 transition-opacity -z-10" />
           </button>
         </div>
       </motion.div>
